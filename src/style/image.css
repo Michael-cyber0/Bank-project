@@ -75,7 +75,7 @@ button {
   font-size: 13px;
   cursor: pointer;
 }
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .flex-container,
   .wrapper,
   .second-content {
