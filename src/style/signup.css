@@ -100,7 +100,8 @@ hr {
     font-size: 0.9rem;
   }
 }
-.input-field {
+.input-field,
+.password-input-wrapper input {
   width: 100%;
   height: 3.8rem;
   padding: 0.5rem;

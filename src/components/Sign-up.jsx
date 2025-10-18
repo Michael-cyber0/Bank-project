@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Image from "../components/Image";
 import VBANK from "../image/VBANK.ico";
 import { Link, useNavigate } from "react-router-dom";
+import PasswordInput from "../pages/Password";
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -91,7 +92,7 @@ const Signup = () => {
           value={formData.phone}
           onChange={handleOnChange}
         />
-        <Input
+        <PasswordInput
           type="password"
           placeholder="Password *"
           name="password"

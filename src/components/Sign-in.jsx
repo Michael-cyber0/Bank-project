@@ -4,6 +4,7 @@ import Input from "../components/Input";
 import Image from "../components/Image";
 import VBANK from "../image/VBANK.ico";
 import "../style/signup.css";
+import PasswordInput from "../pages/Password";
 
 function Signin() {
   const navigate = useNavigate();
@@ -67,7 +68,7 @@ function Signin() {
           value={formData.email}
           onChange={handleOnChange}
         />
-        <Input
+        <PasswordInput
           type="password"
           placeholder="Password *"
           name="password"
