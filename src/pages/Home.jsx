@@ -305,25 +305,6 @@ const Home = () => {
             </div>
           )}
         </div>
-
-        <div className="second-content">
-          <div>
-            <Image src={bank} alt="bank-logo" />
-            <h3>To Vbank</h3>
-          </div>
-          <div>
-            <Image src={banky} alt="bank-logo" />
-            <h3>To others</h3>
-          </div>
-          <div>
-            <Image src={safe} alt="bank-logo" />
-            <h3>Safe</h3>
-          </div>
-          <div>
-            <Image src={coin} alt="bank-logo" />
-            <h3>Coins</h3>
-          </div>
-        </div>
       </div>
     </div>
   );
